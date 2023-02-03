@@ -1,0 +1,14 @@
+{
+  "name": "create-sbt-app",
+  "version": "1.0.0",
+  "description": "A simple npx command to automatically scaffold Sprobe's Base Template.",
+  "author": "James Gordo",
+  "license": "MIT",
+  "bin": "./bin.js",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "child_process": "^1.0.2",
+    "cli-spinner": "^0.2.10",
+    "yargs": "^17.6.2"
+  }
+}
