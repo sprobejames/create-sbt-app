@@ -11,6 +11,8 @@ You can create a new SBT App by running the command below:
 ```
 npx create-sbt-app your-folder-name
 ```
+![create-sbt-app](./create-sbt-app.gif)
+  
 The command above is equivalent to
 ```
 npx create-sbt-app your-folder-name --template laravel-react
@@ -29,6 +31,7 @@ If `--template` argument is not provided, this will automatically download the L
 ```
 npx create-sbt-app your-folder-name --template laravel-nextjs
 ```
+![create-sbt-app-template](./create-sbt-app-template.gif)
 ### Laravel & NextJS Typescript
 ```
 npx create-sbt-app your-folder-name --template laravel-nextjs-ts
@@ -39,4 +42,5 @@ You can pass the `--repo` argument to specify the new git remote origin target:
 ```
 npx create-sbt-app your-folder-name --repo https://github.com/username/repo-name.git
 ```
-
+![create-sbt-app-repo](./create-sbt-app-repo.gif)
+  
